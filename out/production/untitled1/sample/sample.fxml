@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="250.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <WebView fx:id="wv" prefHeight="200.0" prefWidth="332.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+      <Button fx:id="scrollDownBtn" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" onAction="#scrollDownBtn_Clicked" text="Scroll down" />
+      <Button fx:id="scrollUpBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#scrollUpBtn_Clicked" text="Scroll up" />
+      <Button fx:id="stopScrollBtn" layoutX="310.0" layoutY="14.0" mnemonicParsing="false" onAction="#stopScrollBtn_Clicked" text="Stop scroll" />
+      <Button fx:id="pauseScrollBtn" layoutX="208.0" layoutY="14.0" mnemonicParsing="false" onAction="#pauseScrollBtn_Clicked" text="Pause scroll" />
+   </children>
+</AnchorPane>
